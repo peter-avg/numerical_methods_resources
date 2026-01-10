@@ -37,3 +37,11 @@ back to [contents](./README.md)
 - Definition: $\dot{\boldsymbol{D}} = \frac{1}{2} \left( \nabla \mathbf{v} + (\nabla \mathbf{v})^T \right)$ where v is the velocity vector
 - Vorticity Tensor: $\dot{\boldsymbol{W}} = \frac{1}{2} \left( \nabla \mathbf{v} - (\nabla \mathbf{v})^T \right)$
 - Velocity Gradient Decomposition: $\nabla \mathbf{v} = \dot{\boldsymbol{D}} + \dot{\boldsymbol{W}}$
+
+## Deformation
+
+- Deformation vector $dx$ of material element $dξ$ caused by displacement: $dx = dξ + \nabla u \cdot dξ$
+
+## Finite Strain
+
+- Finite Deformation Tensor or Lagrangian strain tensor: $\mathbf{E} = \frac{1}{2}(\nabla u + \nabla u^T + \nabla u^T \cdot \nabla u)$
