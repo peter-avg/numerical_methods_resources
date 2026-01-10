@@ -10,4 +10,6 @@ back to [contents](./README.md)
 
 ## Time Derivative
 
-- $\frac{DT}{Dt} = \frac{\partial T}{\partial t} + \mathbf{v} \cdot \nabla T$
+- Spatial Description: $\frac{DT}{Dt} = \frac{\partial T}{\partial t} + \mathbf{v} \cdot \nabla T$
+- Material Description: $\frac{DT}{Dt} = \frac{\partial T}{\partial t}$
+- Generally: $\frac{DT}{Dt} = \frac{\partial T}{\partial t} + \mathbf{v} \cdot \nabla T$
