@@ -22,3 +22,8 @@ back to [contents](./README.md)
 ```math
 \begin{vmatrix}(\boldsymbol{ε} - λ \mathbf{I}) \end{vmatrix} = 0
 ```
+- Deviatoric Strain: $\boldsymbol{ε_d} = \boldsymbol{ε} - \frac{1}{3} \text{θ} \mathbf{I} = \boldsymbol{ε} - \frac{1}{3} \text{tr}(\boldsymbol{ε}) \mathbf{I}$ 
+- Deviatoric Strain Trace: $\text{tr}(\boldsymbol{ε_d}) = 0$
+- Change in unit vector $\mathbf{\hat{p}}$ after deformation: $d\mathbf{p} = \boldsymbol{ε} \cdot \mathbf{\hat{p}}$
+- Elongation of $\mathbf{s}$ in the direction of $\mathbf{p}$: $\mathbf{\hat{s}} \cdot \boldsymbol{ε} \cdot \mathbf{\hat{p}} = \mathbf{\hat{p}} \cdot dp = |dp| cos\theta$ where $\theta$ is the angle between $\mathbf{dp}$ and $\mathbf{\hat{s}}$
+    - If we are asked about the change in angle between two vectors that have been deformed, it's the sum of those two angle changes.
