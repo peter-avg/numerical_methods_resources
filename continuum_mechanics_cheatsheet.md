@@ -13,22 +13,9 @@ back to [contents](./README.md)
 ## Gradient
 
 - For a scalar field: $\nabla f = \frac{ \partial f }{\partial x} \hat{i} + \frac{ \partial f }{\partial y} \hat{j} + \frac{ \partial f }{\partial z} \hat{k}$ (vector)
-- For a vector field: $$
-\nabla \mathbf{v} =
-\begin{bmatrix}
-\frac{\partial v_x}{\partial x} &
-\frac{\partial v_x}{\partial y} &
-\frac{\partial v_x}{\partial z} \\
-
-\frac{\partial v_y}{\partial x} &
-\frac{\partial v_y}{\partial y} &
-\frac{\partial v_y}{\partial z} \\
-
-\frac{\partial v_z}{\partial x} &
-\frac{\partial v_z}{\partial y} &
-\frac{\partial v_z}{\partial z}
-\end{bmatrix}
-$$
+- For a vector field: $$ \nabla \mathbf{v} = \begin{bmatrix} \frac{\partial v_x}{\partial x} & \frac{\partial v_x}{\partial y} & \frac{\partial v_x}{\partial z} \\
+\frac{\partial v_y}{\partial x} & \frac{\partial v_y}{\partial y} & \frac{\partial v_y}{\partial z} \\ 
+\frac{\partial v_z}{\partial x} & \frac{\partial v_z}{\partial y} & \frac{\partial v_z}{\partial z} \end{bmatrix} $$
 
 
 ## Divergence
