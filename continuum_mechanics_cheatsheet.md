@@ -13,10 +13,10 @@ back to [contents](./README.md)
 ## Gradient
 
 - For a scalar field: $\nabla f = \frac{ \partial f }{\partial x} \hat{i} + \frac{ \partial f }{\partial y} \hat{j} + \frac{ \partial f }{\partial z} \hat{k}$ (vector)
-- For a vector field: ```math
+- For a vector field: 
+```math
 \nabla \mathbf{v} = \begin{matrix} \frac{\partial v_x}{\partial x} & \frac{\partial v_x}{\partial y} & \frac{\partial v_x}{\partial z} \\ \frac{\partial v_y}{\partial x} & \frac{\partial v_y}{\partial y} & \frac{\partial v_y}{\partial z} \\ \frac{\partial v_z}{\partial x} & \frac{\partial v_z}{\partial y} & \frac{\partial v_z}{\partial z} \end{matrix}
 ```
-
 
 ## Divergence
 
@@ -24,7 +24,7 @@ back to [contents](./README.md)
 
 ## Curl 
 
--```math
+```math
 \nabla \times \mathbf{v} = \begin{matrix} \hat{i} & \hat{j} & \hat{k} \\ \frac{ \partial }{\partial x} & \frac{ \partial }{\partial y} & \frac{ \partial }{\partial z} \\ v_x & v_y & v_z \end{matrix} = \left( \frac{ \partial v_z }{\partial y} - \frac{ \partial v_y }{\partial z} \right) \hat{i} + \left( \frac{ \partial v_x }{\partial z} - \frac{ \partial v_z }{\partial x} \right) \hat{j} + \left( \frac{ \partial v_y }{\partial x} - \frac{ \partial v_x }{\partial y} \right) \hat{k} (vector)
 ```
 
