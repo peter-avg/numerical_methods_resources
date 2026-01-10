@@ -1,5 +1,6 @@
 # 🧠 Linear ODEs with Constant Coefficients — Cheat Sheet
 
+back to [contents](./README.md)
 ---
 
 ## 1️⃣ When this method applies
