@@ -29,6 +29,22 @@ back to [contents](./README.md)
 ## Conservation of Momentum
 
 - $\sigma_{ij} = \lambda \epsilon_{kk} \delta_{ij} + 2 \mu \epsilon_{ij}$
+- For principal:
+
+```math
+\begin{bmatrix}
+\sigma_1 & 0 & 0 \\
+0 & \sigma_2 & 0 \\
+0 & 0 & \sigma_3
+\end{bmatrix}
+=
+\begin{bmatrix}
+\lambda (\epsilon_1 + \epsilon_2 + \epsilon_3) + 2 \mu \epsilon_1 & 0 & 0 \\
+0 & \lambda (\epsilon_1 + \epsilon_2 + \epsilon_3) + 2 \mu \epsilon_2 & 0 \\
+0 & 0 & \lambda (\epsilon_1 + \epsilon_2 + \epsilon_3) + 2 \mu \epsilon_3
+\end{bmatrix}
+```
+
 - $-p = \frac{\sigma_{kk}}{3} = K \epsilon_{kk} = K \theta$
     - isotropic stress (i.e. pressure p)
 - Deviatoric Stress: $\sigma_{ij}^{'} = \sigma_{ij} + p \delta_{ij} = 2G \epsilon_{ij}^{'}$
@@ -37,6 +53,9 @@ back to [contents](./README.md)
 ## Navier-Stokes Equation
 
 - Hydrostatic: $\nabla p = f$
+- Isotropic Hookean solid: $\sigma_{ij} = \lambda \epsilon_{kk} I + 2 \mu \epsilon_{ij}$
+    - Young's Modulus: $E = \sigma_{11} / \epsilon_{11}$
+    - Poisson's Ratio: $v = - \epsilon_{33} / \epsilon_{11}$
 - Isotropic Newtonian fluid: $\sigma_{ij} = (-p + \zeta D_{kk}) I + 2 \eta D_{ij}$
     - Newtonian Fluid: $\sigma_{ij}^{'} = \zeta D_{kk} \delta_{ij} + 2 \eta D_{ij}$
     - $\Delta = \nabla \cdot v = D_{kk}$
