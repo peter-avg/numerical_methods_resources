@@ -24,7 +24,14 @@ back to [contents](./README.md)
 
 ## Divergence
 
-- $\nabla \cdot \mathbf{v} = \frac{ \partial v_x }{\partial x} + \frac{ \partial v_y }{\partial y} + \frac{ \partial v_z }{\partial z}$ (scalar)
+- For a vector: $\nabla \cdot \mathbf{v} = \frac{ \partial v_x }{\partial x} + \frac{ \partial v_y }{\partial y} + \frac{ \partial v_z }{\partial z}$ (scalar)
+- For a tensor:
+```math
+\nabla \cdot \mathbf{T} = \begin{bmatrix}
+\frac{\partial T_{xx}}{\partial x} + \frac{\partial T_{xy}}{\partial y} + \frac{\partial T_{xz}}{\partial z} \\
+\frac{\partial T_{yx}}{\partial x} + \frac{\partial T_{yy}}{\partial y} + \frac{\partial T_{yz}}{\partial z} \\
+\frac{\partial T_{zx}}{\partial x} + \frac{\partial T_{zy}}{\partial y} + \frac{\partial T_{zz}}{\partial z} \end{bmatrix}
+```
 
 ## Curl 
 
