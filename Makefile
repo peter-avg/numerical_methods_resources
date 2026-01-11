@@ -2,7 +2,7 @@
 
 push:
 	git add .
-	git commit -m "update"
+	git commit -m "docs: update"
 	git push origin main || ( \
 		echo "Push failed, fixing auth..." && \
 		ssh -T git@github.com-personal && \
