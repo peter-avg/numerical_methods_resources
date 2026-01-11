@@ -33,3 +33,13 @@ back to [contents](./README.md)
     - isotropic stress (i.e. pressure p)
 - Deviatoric Stress: $\sigma_{ij}^{'} = \sigma_{ij} + p \delta_{ij} = 2G \epsilon_{ij}^{'}$
 - Deviatoric Strain: $\epsilon_{ij}^{'} = \epsilon_{ij} - \frac{\theta}{3} \delta_{ij}$
+
+## Navier-Stokes Equation
+
+- Hydrostatic: $\nabla p = f$
+- Isotropic Newtonian fluid: $\sigma_{ij} = (-p + \zeta D_{kk}) I + 2 \eta D_{ij}$
+    - Newtonian Fluid: $\sigma_{ij}^{'} = \zeta D_{kk} \delta_{ij} + 2 \eta D_{ij}$
+    - $\Delta = \nabla \cdot v = D_{kk}$
+    - Force balance: $\nabla \cdot \sigma + f = \rho \frac{Dv}{Dt}$
+    - Assuming constant yields for $\eta$ and $\zeta$: $-\nabla p + (\zeta + \eta) \nabla \Delta + \eta \nabla^2 v + f = \rho (\frac{\partial v}{\partial t} + v \cdot \nabla v) = \rho \frac{Dv}{Dt}$
+- Incompressible Newtonian Fluid: $-\nabla p + \eta \nabla ^2 v + f = \rho (\frac{\partial v}{\partial t} + v \cdot \nabla v)$
