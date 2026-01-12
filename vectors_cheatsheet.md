@@ -12,7 +12,9 @@ back to [contents](./README.md)
 - $\hat{e}_a \cdot \hat{e}_a = 1$
 - $a \times (b \times c) = (a \cdot c)b - (a \cdot b)c$
 - Transformation orthonomal basis:
-    - $v^{'} = A v =
+    -
+    ```math
+        v^{'} = A v =
         \begin{bmatrix}
         a_{11} & a_{12} \\
         a_{21} & a_{22}
@@ -21,6 +23,6 @@ back to [contents](./README.md)
         cos(\theta) & sin(\theta) \\
         -sin(\theta) & cos(\theta)
         \end{bmatrix} v
-    $
+    ```
     - $a_{ij} = \hat{e}_i^{'} \cdot \hat{e}_j$
     
