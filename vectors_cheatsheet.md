@@ -48,10 +48,8 @@ a \otimes b = a_i b_j = \begin{bmatrix}
 a_1 b_1 & a_1 b_2 & a_1 b_3 \\
 a_2 b_1 & a_2 b_2 & a_2 b_3 \\
 a_3 b_1 & a_3 b_2 & a_3 b_3
-\end{bmatrix}$
+\end{bmatrix} \text{(tensor)}
 ```
-
-(tensor)
 
 ## Stress Transform to new Orthonormal Basis
 
