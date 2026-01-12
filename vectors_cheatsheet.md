@@ -18,7 +18,7 @@ back to [contents](./README.md)
         \begin{bmatrix}
         a_{11} & a_{12} \\
         a_{21} & a_{22}
-        \end{matrix} v =
+        \end{bmatrix} v =
         \begin{bmatrix} 
         cos(\theta) & sin(\theta) \\
         -sin(\theta) & cos(\theta)
