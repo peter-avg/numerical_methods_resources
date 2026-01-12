@@ -24,6 +24,8 @@ back to [contents](./README.md)
 
 ## Divergence
 
+Represents the net rate of the material flowing out or into a point.
+
 - For a vector: $\nabla \cdot \mathbf{v} = \frac{ \partial v_x }{\partial x} + \frac{ \partial v_y }{\partial y} + \frac{ \partial v_z }{\partial z}$ (scalar)
 - For a tensor:
 ```math
@@ -34,6 +36,8 @@ back to [contents](./README.md)
 ```
 
 ## Curl 
+
+Represents the rotation of the field around a point. Always parallel to the axis of rotation. Magnitude of the curl represents the strength of rotation.
 
 ```math
 \nabla \times \mathbf{v} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ \frac{ \partial }{\partial x} & \frac{ \partial }{\partial y} & \frac{ \partial }{\partial z} \\ v_x & v_y & v_z \end{vmatrix} = \left( \frac{ \partial v_z }{\partial y} - \frac{ \partial v_y }{\partial z} \right) \hat{i} + \left( \frac{ \partial v_x }{\partial z} - \frac{ \partial v_z }{\partial x} \right) \hat{j} + \left( \frac{ \partial v_y }{\partial x} - \frac{ \partial v_x }{\partial y} \right) \hat{k} (vector)
