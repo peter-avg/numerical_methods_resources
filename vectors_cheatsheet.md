@@ -34,7 +34,7 @@ cos(\theta) & sin(\theta) \\
 
 - 
 ```math
-\epsilon_{ijk} = \begin{cases} +1 & \text{if } (i,j,k) \text{ is an even permutation of } (1,2,3) \\ -1 & \text{if } (i,j,k) \text{ is an odd permutation of } (1,2,3) \\ 0 & \text{if any two indices are equal} \end{cases}$
+\epsilon_{ijk} = \begin{cases} +1 & \text{if } (i,j,k) \text{ is an even permutation of } (1,2,3) \\ -1 & \text{if } (i,j,k) \text{ is an odd permutation of } (1,2,3) \\ 0 & \text{if any two indices are equal} \end{cases}
 ```
 
 - $\epsilon_{ijk} = (\hat{e}_i \times \hat{e}_j) \cdot \hat{e}_k$
