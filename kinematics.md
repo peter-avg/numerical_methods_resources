@@ -4,6 +4,7 @@ back to [contents](./README.md)
 
 ## Descriptions
 
+- Velocity Field: $v(x,t) = \frac{\partial x^{'}}{\partial t}$
 - Spatial or Euclidean: $T(x,t)$
 - Material or Lagrangian: $T(ξ,t)$
 - You can convert between the two using the mapping $x = χ(ξ,t)$
