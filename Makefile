@@ -1,10 +1,11 @@
 .PHONY: push
 
 push:
-	git add .
-	git commit -m "docs: update"
-	git push origin main || ( \
-		echo "Push failed, fixing auth..." && \
-		ssh -T git@github.com-personal && \
-		git push origin main \
-	)
+	@git add .
+	@git commit -m "docs: update" || true
+	@{ \
+		git push origin main && exit 0; \
+		echo "Push failed, fixing auth..."; \
+		ssh -T git@github.com-personal || exit 1; \
+		git push origin main; \
+	}
