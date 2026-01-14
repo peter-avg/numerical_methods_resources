@@ -36,14 +36,25 @@ back to [contents](./README.md)
 
 - $P(x) = y_i + \frac{y_{i+1} - y_i}{x_{i+1} - x_i} (x - x_i), x \in [x_i, x_{i+1}]$
 
-# Hat Functions
+## Hat Functions
 
 - $N_i(x) = \begin{cases} \frac{x - x_{i-1}}{x_i - x_{i-1}}, & x \in [x_{i-1}, x_i] \\ \frac{x_{i+1} - x}{x_{i+1} - x_i}, & x \in [x_i, x_{i+1}] \\ 0, & \text{otherwise} \end{cases}$
 - $P(x) = \sum_{i=0}^{n} y_i N_i(x)$
 
-# Quadrature
+## Quadrature
 
 - $\int_{a}^{b} f(x) dx = \sum_{i=0}^{n-1} \int_{x_i}^{x_{i+1}} f(x) dx$
 - Midpoint: $\int_{x_i}^{x_{i+1}} f(x) dx = I_M = \sum_{i=0}^{n-1} f(\frac{x_i + x_{i+1}}{2}) (x_{i+1} - x_i)$
 - Trapezoidal: $\int_{x_i}^{x_{i+1}} f(x) dx = I_T = \sum_{i=0}^{n-1} \frac{f(x_i) + f(x_{i+1})}{2} (x_{i+1} - x_i)$
 - Simpson's: $I_s = \frac{2}{3} I_M + \frac{1}{3} I_T$
+
+## Approximation of ODEs 
+
+- Convergence: $\text{max} ||y_n - y(t_n)|| \rightarrow 0$ as $\Delta t \rightarrow 0$
+- Taylor Series: $y(t + \Delta t) = y(t) + \Delta t y'(t) + \frac{(\Delta t)^2}{2!} y''(t) + \frac{(\Delta t)^3}{3!} y'''(t) + O(\Delta t^4)$
+- Forward Euler: $y_{n+1} = y_n + \Delta t f(t_n, y_n)$
+- Backward Euler: $y_{n+1} - \Delta t f(t_{n+1}, y_{n+1}) = y_n$
+- Central (Leapfrog): $y_{n+1} = y_{n-1} + 2 \Delta t f(t_n, y_n)$
+- Trapezoidal: $y_{n+1} - \frac{\Delta t}{2} f(t_{n+1}, y_{n+1}) = y_n + \frac{\Delta t}{2} f(t_n, y_n)$
+- Local Truncation Error: $LTE = \frac{y(t_{n+1}) - y(t_n)}{\Delta t} - \Phi(t_n, y(t_n))$
+- Order of Convergence: $|LTE| < C\Delta t^p$
