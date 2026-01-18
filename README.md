@@ -9,3 +9,4 @@ This repo contains resources for various computational method and algorithms.
 5. [Kinematics](./kinematics.md): Notes on kinematics.
 6. [Conservation Equations](./conservation_equations.md): Notes on conservation equations.
 7. [Interpolation Methods](./interpolation.md): Overview of various interpolation methods.
+8. [Potential Flows](./potential_flow.md): Notes on potential flow theory.
