@@ -8,14 +8,23 @@ back to [contents](./README.md)
     - $M$: mass
     - $L$: length
     - $T$: time
+
 - Parameters:
     - $\rho = \dfrac{M}{L^3}$: density
     - $v = \dfrac{L}{T}$: velocity
     - $p = \dfrac{M}{L \cdot T^2}$: pressure
     - $\mu = \dfrac{M}{L T}$
     - $g = \dfrac{L}{T^2}$: gravitational acceleration
-    - $\gamma = \dfrac{L^2}{T}$: circulation
+    - $\gamma = \dfrac{M}{T^2}$: surface tension
 
+- Buckingham Pi Theorem:
+    - $x = [\rho, v, p, \mu, g, \gamma, ..]$
+    - $x1 = [\rho, v, p]$: Dependent variables
+    - $x2 = [\mu, g, \gamma]$: Independent variables
+    - $A1$: Dimension matrix of $x1$
+    - $A2$: Dimension matrix of $x2$
+    - $x_1 = -A_1^{-1} A_2 \cdot x_2$
+    - Pick independent vectors for x2 and calculate x1
 
 ## Definition
 
@@ -31,4 +40,3 @@ back to [contents](./README.md)
     - Both satisfy Laplace's equation: $\nabla^2 \Phi = 0$ and $\nabla^2 \Psi = 0$
 - The field can then be derived by:
     - $v = \begin{bmatrix} v_{x} \\ v_{y} \end{bmatrix} = \begin{bmatrix} \dfrac{\partial \Phi}{\partial x} \\ \dfrac{\partial \Phi}{\partial y} \end{bmatrix} = \begin{bmatrix} \dfrac{\partial \Psi}{\partial y} \\ -\dfrac{\partial \Psi}{\partial x} \end{bmatrix}$
-
