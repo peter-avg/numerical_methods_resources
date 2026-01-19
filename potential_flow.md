@@ -2,6 +2,21 @@
 
 back to [contents](./README.md)
 
+## Dimensional Analysis
+
+- Dimensions:
+    - $M$: mass
+    - $L$: length
+    - $T$: time
+- Parameters:
+    - $\rho = \dfrac{M}{L^3}$: density
+    - $v = \dfrac{L}{T}$: velocity
+    - $p = \dfrac{M}{L \cdot T^2}$: pressure
+    - $\mu = \dfrac{M}{L T}$
+    - $g = \dfrac{L}{T^2}$: gravitational acceleration
+    - $\gamma = \dfrac{L^2}{T}$: circulation
+
+
 ## Definition
 
 - Given a field $v = [v_{x}, v_{y}]$ that is:
